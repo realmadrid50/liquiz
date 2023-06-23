@@ -37,6 +37,8 @@ body {
   background-size: cover;
   justify-content: center;
   position: relative;
+  background-color: #000000;
+
 }
 
 body:after {
@@ -52,7 +54,7 @@ body:after {
   background-size: cover;
   justify-content: center;
   opacity: 0.2;
-
+  background-color: #000000;
   z-index: -1;
 }
 
@@ -89,6 +91,7 @@ body:after {
 
   font-family: Earth Orbiter Bold;
   font-weight: 900;
+  color: #fefdf9;
   font-size: max(calc(50 * var(--res)), 13px);
 
 }
@@ -105,6 +108,7 @@ p{
 
   font-size: max(calc(16 * var(--res)), 11px);
   text-align: center;
+  color: #fefdf9;
 }
 
 button{
