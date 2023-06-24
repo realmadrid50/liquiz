@@ -123,3 +123,16 @@ button{
   font-size: max(calc(10 * var(--res)), 9px);
 
 }
+
+.discord{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discord img{
+  width: 50px;
+  cursor: pointer;
+}

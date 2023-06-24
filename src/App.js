@@ -1,5 +1,6 @@
 import './index.css';
 import logo from './logo.png';
+import Discord from './icon.svg'
 
 function App() {
 
@@ -8,6 +9,11 @@ function App() {
     window.open(url);
   }
   
+  function discord() {
+    const url = "https://discord.com/invite/EP44K4KJ7A";
+    window.open(url);
+  }
+
   return (
     <div className="App">
 
@@ -18,6 +24,11 @@ function App() {
           <p>Crax's unlocks real<br/> Yield Aggregator on Ethereum<br/></p>
         </div>
         <button onClick={clicktweet}>PROOF OF PARTICIPATION</button>
+
+
+        <div className="discord">
+          <img onClick={discord} src={Discord}></img>
+        </div>
         
       </div>
     </div>
