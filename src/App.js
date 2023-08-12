@@ -18,8 +18,8 @@ function App() {
 
 
       <div className='app-wrapper'>
-        <h1>Liquiz COMING <br/>ON BASE </h1>
         <button onClick={clicktweet}>PROOF OF PARTICIPATION</button>
+
 
 
         <div className="discord">
