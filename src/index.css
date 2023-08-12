@@ -91,6 +91,10 @@ body:after {
   width: 160px;
 }
 
+a{
+  color: black;
+}
+
 .app-wrapper h1{
 
   font-family: Earth Orbiter Bold;
