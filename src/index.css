@@ -129,7 +129,7 @@ button{
   cursor: pointer;
   background-color: #fefdf9;
   font-size: max(calc(13 * var(--res)), 9px);
-  
+  color: black;
 
 }
 
